@@ -64,11 +64,17 @@ They need trimap or scribble as part of dataset to help analyze, which is unreal
 #### Scene Labelling
 Scene labelling is the combination of semantic segmentation and classification
 
+<p align="left">
+    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/segmentation.PNG" width="200"/>
+</p>
+
 The task of scene labeling is to densely predict every pixel of an image into one of the pre-defined classes.
 
 Semantic segmentation can help us find which part is background.
 
 Classification can help us define what’s in the background.
 
-
+<p align="left">
+    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/label.PNG" width="600"/>
+</p>
 
