@@ -91,11 +91,8 @@ what, where, when, who, why, how and which
 We need to develop our own dataset for our product.
 
 ## Setup of Development Environment
-Pytorch
-
-Python 3.8
-
-Cuda 
-
+Pytorch  
+Python 3.8  
+Cuda   
 Subl/vim 
 
