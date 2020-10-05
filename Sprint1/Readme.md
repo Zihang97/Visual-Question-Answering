@@ -7,7 +7,7 @@ The product can recognize the type of background object.
 For example, it can recognize the background is a mountain but may not exactly know which exact mountain it is.
 
 <p align="left">
-    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/mission.PNG" width="500"/>
+    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/mission.PNG" width="300"/>
 </p>
 
 ## User Story
