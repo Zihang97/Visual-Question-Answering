@@ -45,13 +45,17 @@ The above three items are simultaneously input into a Seq2Seq model as its initi
 
 ## Techniques
 For any VQA problem, it has two main focus: image and question.  
+
 The aim of our product is to recognize the background of image, so the questions will be quite similar and not complex, such as ‘ What’s the background of the image?’ and ‘ Where are the person in the image?’.   
+
 The image processing part is the key point of our product.
 
 ### Which part is the background?
 #### Image Matting
 Image matting is the problem of accurate foreground estimation in images and videos.  
+
 They can separate the foreground and background, but the focus is foreground estimation.  
+
 They need trimap or scribble as part of dataset to help analyze, which is unrealistic for VQA. 
 
 <p align="left">
@@ -68,6 +72,7 @@ Scene labelling is the combination of semantic segmentation and classification
 The task of scene labeling is to densely predict every pixel of an image into one of the pre-defined classes.
 
 Semantic segmentation can help us find which part is background.  
+
 Classification can help us define what’s in the background.
 
 <p align="left">
