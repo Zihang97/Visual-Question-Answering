@@ -6,6 +6,10 @@ The product can recognize the type of background object.
 
 For example, it can recognize the background is a mountain but may not exactly know which exact mountain it is.
 
+<p align="left">
+    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/mission.PNG" width="500"/>
+</p>
+
 ## User Story
 There are always many silly criminals who want to show off what they have down and post pictures on the social media. As a police officer, I can use the background recognition product to analyze the picture. Find their location and catch them.
 
