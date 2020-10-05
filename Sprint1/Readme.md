@@ -78,3 +78,23 @@ Classification can help us define what’s in the background.
     <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/label.PNG" width="600"/>
 </p>
 
+### Dataset
+Visual7W
+
+what, where, when, who, why, how and which
+
+<p align="left">
+    <img src="https://github.com/Zihang97/Visual-Question-Answering/blob/main/Sprint1/Picture/7W.PNG" width="400"/>
+</p>
+
+We need to develop our own dataset for our product.
+
+## Setup of Development Environment
+Pytorch
+
+Python 3.8
+
+Cuda 
+
+Subl/vim 
+
