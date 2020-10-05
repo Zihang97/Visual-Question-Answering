@@ -3,11 +3,14 @@ This is a team project in EC601 about visual question answering. Our aim is to a
 
 ## Contributer
 Zihang Jiang
+
 jzh15@bu.edu
 
 Jiachen Xu
+
 ryanxu@bu.edu
 
 Runyu Wang
+
 wangruny@bu.edu
 
