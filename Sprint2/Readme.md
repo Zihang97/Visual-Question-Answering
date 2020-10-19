@@ -22,10 +22,21 @@ where p denotes position and I denotes color embeddings.
 </p>
 
 ## Reproduce
+Using 5 iterations of CRF
 
-<p align="left">
-  <img src="picture/im1.png" width=150>
-  <img src="picture/out1.png" width=150>
+<p align="center">
+  <img src="picture/im1.png" width=200>
+  <img src="picture/out1.png" width=200>
+</p>
+
+<p align="center">
+  <img src="picture/im2.png" width=200>
+  <img src="picture/out2.png" width=200>
+</p>
+
+<p align="center">
+  <img src="picture/im3.png" width=200>
+  <img src="picture/out3.png" width=200>
 </p>
 
 # DeepLab
