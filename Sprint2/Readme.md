@@ -42,8 +42,8 @@ Using 5 iterations of CRF
 # DeepLab
 
 # Sprint3
-1.Identify which area is background
+1. Identify which area is background
 
-2.Try to use more classification types
+2. Try to use more classification types
 
-3.Combine the results from FCN and CRF, like deeplab
+3. Combine the results from FCN and CRF, like deeplab
