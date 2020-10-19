@@ -1,8 +1,8 @@
-# Architecture
+## Architecture
 
-# FCN
+## FCN
 
-# CRF
+## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
 
 <p align="center">
@@ -21,7 +21,7 @@ where p denotes position and I denotes color embeddings.
   <img src="picture/deeplab.PNG" width=600/>
 </p>
 
-## Reproduce
+### Reproduce
 Using 5 iterations of CRF
 
 <p align="center">
@@ -39,9 +39,9 @@ Using 5 iterations of CRF
   <img src="picture/out3.png" width=200>
 </p>
 
-# DeepLab
+## DeepLab
 
-# Sprint3
+## Sprint3
 1. Identify which area is background
 
 2. Try to use more classification types
