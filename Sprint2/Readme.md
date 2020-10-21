@@ -60,17 +60,27 @@ The results obtained by different upsampling structures are compared as follows:
 
 
 ## CRF
-CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
+CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm. 
 
 <p align="center">
   <img src="picture/deeplab.PNG" width=600/>
 </p>
 
+The reason we need back-end algorithms is that convolutional network only output the value of each pixel independently, which don't care about the relationship between different pixels. So the using of CRF is to validate the edges of objects and make the areas smoothly.
+
 <p align="center">
   <img src="picture/crf.PNG" width=150/>
 </p>
 
-The reason we need back-end algorithms is that convolutional network only output the value of each pixel independently, which don't care about the relationship between different pixels. So the using of CRF is to validate the edges of objects and make the areas smoothly.
+Compared to MRF, CRF focuses on approaximating the conditional probability instead of joint probability, which is exactly what classification wants to do.
+
+<p align="left">
+  <img src="picture/bayesian.PNG" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/KL.PNG" width=500/>
+</p>
 
 <p align="left">
   <img src="picture/crf_fomula.PNG" width=500/>
@@ -104,8 +114,8 @@ Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, an
   <img src="picture/deeplab.png" >
   
 ## Sprint3
-1. Identify which area is background
+1. Combine the results from FCN and CRF, like deeplab
 
-2. Try to use more classification types
+2. Develop our own dataset
 
-3. Combine the results from FCN and CRF, like deeplab
+3. Identify which area is background
