@@ -46,6 +46,16 @@ The results obtained by different upsampling structures are compared as follows:
   <img src="picture/image4.png" width=400/>
 </p>
 
+### FCN Training Reproduce (CamVid)
+
+<p align="center">
+  <img src="picture/trails.PNG" width=150/>
+</p>
+
+<p align="center">
+  <img src="picture/result.gif" width=150/>
+</p>
+
 
 ## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
