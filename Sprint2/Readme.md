@@ -49,11 +49,11 @@ The results obtained by different upsampling structures are compared as follows:
 ### FCN Training Reproduce (CamVid)
 
 <p align="center">
-  <img src="picture/Trials.PNG" width=500/>
+  <img src="picture/trials.PNG" width=1000/>
 </p>
 
 <p align="center">
-  <img src="picture/result.gif" width=500/>
+  <img src="picture/result.gif" width=1000/>
 </p>
 
 
