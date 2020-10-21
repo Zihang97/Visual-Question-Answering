@@ -1,7 +1,7 @@
 ## Architecture
 
 ## FCN
-
+123
 ## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
 
