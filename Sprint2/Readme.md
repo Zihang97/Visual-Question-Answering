@@ -1,7 +1,11 @@
 ## Architecture
 
 ## FCN
-123
+
+<p align="center">
+  <img src="picture/image1.png" width=150/>
+</p>
+
 ## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
 
