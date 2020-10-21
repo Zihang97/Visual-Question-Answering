@@ -15,7 +15,7 @@ Next, we will summarize from the front-end and back-end parts.
 
 ## FCN
 
-The network we use for classification usually connects several fully connected layers at the end. It squashes the original two-dimensional matrix (picture) into one-dimensional, thus losing spatial information, and finally trains to output a scalar. This is our classification result.
+The network we use for classification usually connects several fully connected layers at the end. It squashes the original two-dimensional matrix (picture) into one-dimensional, thus losing spatial information, and finally trains to output a scalar. 
 The output of image semantic segmentation needs to be a segmentation map, regardless of size, but at least two-dimensional. Therefore, we need to discard the fully connected layer and replace it with a fully convolutional layer, and this is a fully convolutional network.
 
 ### Convolutional
