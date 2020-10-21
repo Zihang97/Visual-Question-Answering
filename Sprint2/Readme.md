@@ -5,7 +5,7 @@ CRF: Conditional Random Field
 MRF: Markov random field
 
 <p align="center">
-  <img src="picture/image1.png" width=150/>
+  <img src="picture/image1.png" width=200/>
 </p>
 
 The front end uses FCN for rough feature extraction, and the back end uses CRF/MRF to optimize the output of the front end, and finally the segmentation map is obtained.
@@ -21,7 +21,7 @@ The output of image semantic segmentation needs to be a segmentation map, regard
 Deconvolution is similar to convolution, both are operations of multiplication and addition. It's just that the latter is many-to-one, and the former is one-to-many. For the forward and backward propagation of deconvolution, only the forward and backward propagation of convolution can be reversed.
 
 <p align="left">
-  <img src="picture/image2.png" width=150/>
+  <img src="picture/image2.png" width=400/>
 </p>
 
 
