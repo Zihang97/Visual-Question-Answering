@@ -24,6 +24,20 @@ Deconvolution is similar to convolution, both are operations of multiplication a
   <img src="picture/image2.png" width=400/>
 </p>
 
+### Skip Layer
+
+The function of this structure is to optimize the result, because if the result after full convolution is directly up-sampled, the result is very rough, so the results of different pooling layers must be up-sampled to optimize the output.
+
+<p align="left">
+  <img src="picture/image3.png" width=400/>
+</p>
+
+The results obtained by different upsampling structures are compared as follows:
+
+<p align="left">
+  <img src="picture/image4.png" width=400/>
+</p>
+
 
 ## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
