@@ -63,6 +63,10 @@ The results obtained by different upsampling structures are compared as follows:
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
 
 <p align="center">
+  <img src="picture/deeplab.PNG" width=600/>
+</p>
+
+<p align="center">
   <img src="picture/crf.PNG" width=150/>
 </p>
 
@@ -74,9 +78,6 @@ The reason we need back-end algorithms is that convolutional network only output
 
 where p denotes position and I denotes color embeddings.
 
-<p align="center">
-  <img src="picture/deeplab.PNG" width=600/>
-</p>
 
 ### Reproduce
 Using 5 iterations of CRF
