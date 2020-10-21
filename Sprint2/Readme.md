@@ -97,7 +97,8 @@ Using 5 iterations of CRF
 </p>
 
 ## DeepLab
-
+<p align="center">
+  <img src="picture/deeplab.png" width=200>
 ## Sprint3
 1. Identify which area is background
 
