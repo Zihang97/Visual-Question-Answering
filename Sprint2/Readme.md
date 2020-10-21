@@ -97,6 +97,8 @@ Using 5 iterations of CRF
 </p>
 
 ## DeepLab
+Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs
+
 <p align="center">
   <img src="picture/deeplab.png" >
   
