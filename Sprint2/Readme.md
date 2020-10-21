@@ -13,6 +13,16 @@ Next, we will summarize from the front-end and back-end parts.
 
 ## FCN
 
+The network we use for classification usually connects several fully connected layers at the end. It squashes the original two-dimensional matrix (picture) into one-dimensional, thus losing spatial information, and finally trains to output a scalar. This is our classification result.
+The output of image semantic segmentation needs to be a segmentation map, regardless of size, but at least two-dimensional. Therefore, we need to discard the fully connected layer and replace it with a fully convolutional layer, and this is a fully convolutional network.
+
+# Upsample (Deconvolution)
+
+Deconvolution is similar to convolution, both are operations of multiplication and addition. It's just that the latter is many-to-one, and the former is one-to-many. For the forward and backward propagation of deconvolution, only the forward and backward propagation of convolution can be reversed.
+
+<p align="left">
+  <img src="picture/image1.png" width=150/>
+</p>
 
 
 ## CRF
