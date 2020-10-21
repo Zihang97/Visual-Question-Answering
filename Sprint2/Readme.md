@@ -21,7 +21,7 @@ The output of image semantic segmentation needs to be a segmentation map, regard
 Convolution is to place ordinary classification networks, some VGG16, ResNet50/101 and other networks in fully connected layers, and replace them with corresponding convolutional layer.
 
 <p align="left">
-  <img src="picture/image2.png" width=400/>
+  <img src="picture/image5.png" width=400/>
 </p>
 
 ### Upsample (Deconvolution)
