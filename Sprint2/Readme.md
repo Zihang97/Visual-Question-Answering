@@ -1,10 +1,19 @@
 ## Architecture
 
-## FCN
+FCN: Fully Convolutional Networks for Semantic Segmentation
+CRF: Conditional Random Field
+MRF: Markov random field
 
 <p align="center">
   <img src="picture/image1.png" width=150/>
 </p>
+
+The front end uses FCN for rough feature extraction, and the back end uses CRF/MRF to optimize the output of the front end, and finally the segmentation map is obtained.
+Next, we will summarize from the front-end and back-end parts.
+
+## FCN
+
+
 
 ## CRF
 CRF is referred as Conditional Random Field, which is the most common-used back-end algorithm.
