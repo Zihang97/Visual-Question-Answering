@@ -1,9 +1,9 @@
 ## Dataset
 We selet more than 2000 pictures from original vqa dataset 7w to build this dataset.
 
-<p align="center">
-  <img src="picture/data.png" >
-</p>
+
+<img src="picture/data.png" >
+
 
 There are images and also to train the models we need the groundtruth.
 
