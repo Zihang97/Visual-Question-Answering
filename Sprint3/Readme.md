@@ -3,7 +3,7 @@
 ### Training
 
 <p align="left">
-  <img src="picture/gpus.PNG" width=200/>
+  <img src="picture/gpus.PNG" width=250/>
 </p>
 
 <p align="left">
