@@ -68,3 +68,10 @@ There are three principles for me to identify the background type.
 
 Image in the middle is PSPNet, a classical sementic segmentation algorithm trained on Pascal VOC. Image on the right is our model's result. The way classical sementic segmentation recognize object is defining other things unlabelled. But we can't do that as we need to know its type.
 
+### Results
+
+
+## Sprint 4
+1. expand number of classes (not sure if we can do that)
+2. expand the type of questions
+3. try to improve our model to get better performance
