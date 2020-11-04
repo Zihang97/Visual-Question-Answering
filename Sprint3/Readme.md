@@ -7,8 +7,7 @@ I used [CityScapes dataset](https://www.cityscapes-dataset.com/downloads/) to tr
   <img src="picture/label.PNG" width=800/>
 </p>
 
-I only use 19 classes from 
-
+I only use 19 classes out of 35 classes defined in CityScapes as our model don't have very complicated structure and there isn't too many parameters. So a lot of classes may lead to accuracy loss and low performance.
 
 <p align="left">
   <img src="picture/gpus.PNG" width=250/>
@@ -22,3 +21,8 @@ I only use 19 classes from
   <img src="picture/train_80.PNG" width=800/>
 </p>
 
+### Trained Model:
+
+| Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
+| :----------: |:-----------------: |:-------------------:|:----------------:|
+| ResNet 50    | 56%                | 93%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl=0) |
