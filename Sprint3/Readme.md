@@ -36,6 +36,6 @@ The mIoU is not very perfect as the top model in CityScapes ranking reaches over
 
 ### Identify the background
 There are three principles for me to identify the background type.
-1. focus on the edge parts of images, don't care about the central area (1/4<row<3/4 and 1/4<col<3/4)
-2. find the two classes that occupy most pixels
-3. if the biggest class occupies far more areas than the second, output the biggest one, else output both of them.
+1. Focus on the edge parts of images, don't care about the central area (1/4<row<3/4 and 1/4<col<3/4)
+2. Find the two classes that occupy most pixels
+3. If the biggest class occupies far more areas than the second, output the biggest one, else output both of them.
