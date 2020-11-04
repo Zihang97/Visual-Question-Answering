@@ -106,7 +106,9 @@ Image in the middle is PSPNet, a classical sementic segmentation algorithm train
   <img src="picture/woods (376).png" width=200/>
 </p>
 
+Terrain class is referred as grassy terrain, as there is no grass class defined. We have to admit that there do exist some mistakes in the results and our model still need further improving. But we think that we basically achieved the MVP of our project.
+
 ## Sprint 4
-1. expand number of classes (not sure if we can do that)
-2. expand the type of questions
-3. try to improve our model to get better performance
+1. Expand number of classes (not sure if we can do that)
+2. Expand the type of questions
+3. Try to improve our model to get better performance
