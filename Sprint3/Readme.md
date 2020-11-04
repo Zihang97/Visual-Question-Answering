@@ -35,11 +35,10 @@ LSTMs also have this chain like structure, but the repeating module has a differ
 
  <img src="picture/LSTM3-chain.png" height=300/>
  <p align="middle">
-The repeating module in an LSTM contains four interacting layers.
-  
-LSTM is easier to train than standard RNNs because of its linear error propagation and multiplicative gatings. Our model builds directly on top of the LSTM sentence model and is called the “VIS+LSTM”
+The repeating module in an LSTM contains four interacting layers. 
 
 ### Model Explanation
+LSTM is easier to train than standard RNNs because of its linear error propagation and multiplicative gatings. Our model builds directly on top of the LSTM sentence model and is called the “VIS+LSTM”
  <img src="picture/VIS+LSTM Model.png" height=300/>
  <p align="middle">
 VIS+LSTM Model
