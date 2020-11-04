@@ -9,14 +9,14 @@ We selet more than 2000 pictures from original vqa dataset 7w to build this data
 There are images and also to train the models we need the groundtruth.
 
 <p align="left">
-  <img src="picture/building1.jpg" height=400/>
-  <img src="picture/grass1.jpg" height=400/>
+  <img src="picture/building1.jpg" height=300/>
+  <img src="picture/grass1.jpg" height=300/>
 </p>
 
 Almost half of the two pictures above is sky. But when asking for the background, it doesn't make any sense to say it's sky. The background of them should be buildings and grass.
 
 <p align="left">
-  <img src="picture/sky1.jpg" >
+  <img src="picture/sky1.jpg" height=300/>
 </p>
 
 ## Image processing
