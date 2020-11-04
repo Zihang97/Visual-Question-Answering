@@ -69,7 +69,42 @@ There are three principles for me to identify the background type.
 Image in the middle is PSPNet, a classical sementic segmentation algorithm trained on Pascal VOC. Image on the right is our model's result. The way classical sementic segmentation recognize object is defining other things unlabelled. But we can't do that as we need to know its type.
 
 ### Results
+<p align="left">
+  <img src="picture/building (11).jpg" width=200/>
+  <img src="picture/building (11).png" width=200/>
+  
+  <img src="picture/Results.PNG" width=520/>
+</p>
 
+<p align="left">
+  <img src="picture/building (3).jpg" width=200/>
+  <img src="picture/building (3).png" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/building (45).jpg" width=200/>
+  <img src="picture/building (45).png" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/grass (138).jpg" width=200/>
+  <img src="picture/grass (138).png" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/grass (141).jpg" width=200/>
+  <img src="picture/grass (141).png" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/sky (182).jpg" width=200/>
+  <img src="picture/sky (182).png" width=200/>
+</p>
+
+<p align="left">
+  <img src="picture/woods (376).jpg" width=200/>
+  <img src="picture/woods (376).png" width=200/>
+</p>
 
 ## Sprint 4
 1. expand number of classes (not sure if we can do that)
