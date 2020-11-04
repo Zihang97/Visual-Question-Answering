@@ -30,12 +30,25 @@ All recurrent neural networks have the form of a chain of repeating modules of n
  <img src="picture/LSTM3-SimpleRNN.png" height=300/>
  <p align="middle">
 The repeating module in a standard RNN contains a single layer.
-  
+ 
+LSTMs also have this chain like structure, but the repeating module has a different structure. Instead of having a single neural network layer, there are four, interacting in a very special way.
+
  <img src="picture/LSTM3-chain.png" height=300/>
  <p align="middle">
 The repeating module in an LSTM contains four interacting layers.
   
-This is an experimental Torch implementation of the VIS + LSTM visual question answering model
+LSTM is easier to train than standard RNNs because of its linear error propagation and multiplicative gatings. Our model builds directly on top of the LSTM sentence model and is called the “VIS+LSTM”
+1. We use the last hidden layer of the 19-layer Oxford VGG Conv Net [20] trained on ImageNet 2014 Challenge [21] as our visual embeddings. The CNN part of our model is kept
+frozen during training.
+2. We experimented with several different word embedding models: randomly initialized embedding, dataset-specific skip-gram embedding and general-purpose skip-gram embedding
+model [22]. The word embeddings are trained with the rest of the model.
+3. We then treat the image as if it is the first word of the sentence. Similar to DeViSE [23],
+we use a linear or affine transformation to map 4096 dimension image feature vectors to a
+300 or 500 dimensional vector that matches the dimension of the word embeddings.
+4. We can optionally treat the image as the last word of the question as well through a different
+weight matrix and optionally add a reverse LSTM, which gets the same content but operates
+in a backward sequential fashion.
+5. The LSTM(s) outputs are fed into a softmax layer at the last timestep to generate answers
  <img src="picture/VIS+LSTM Model.png" height=300/>
  <p align="middle">
 VIS+LSTM Model
