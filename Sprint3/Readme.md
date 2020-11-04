@@ -25,4 +25,4 @@ I only use 19 classes out of 35 classes defined in CityScapes as our model don't
 
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
 | :----------: |:-----------------: |:-------------------:|:----------------:|
-| ResNet 50    | 56%                | 93%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl=0) |
+| ResNet 50 + CRF   | 56%                | 93%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl=0) |
