@@ -45,3 +45,5 @@ There are three principles for me to identify the background type.
   <img src="picture/old.png" width=200/>
   <img src="picture/2008_007112.png" width=200/>
 </p>
+
+Image in the middle is PSPNet, a classical sementic segmentation algorithm trained on Pascal VOC. Image on the right is our model's result. The way classical sementic segmentation recognize object is defining other things unlabelled. But we can't do that as we need to know its type.
