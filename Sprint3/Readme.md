@@ -27,9 +27,14 @@ LSTM is a special kind of RNN, capable of learning long-term dependencies. LSTMs
 
 All recurrent neural networks have the form of a chain of repeating modules of neural network. In standard RNNs, this repeating module will have a very simple structure.
 
- <img src="picture/VIS+LSTM Model.png" height=300/>
- 
+ <img src="picture/LSTM3-SimpleRNN.png" height=300/>
+ <p align="middle">
 The repeating module in a standard RNN contains a single layer.
+  
+ <img src="picture/LSTM3-chain.png" height=300/>
+ <p align="middle">
+The repeating module in an LSTM contains four interacting layers.
+  
 This is an experimental Torch implementation of the VIS + LSTM visual question answering model
  <img src="picture/VIS+LSTM Model.png" height=300/>
  <p align="middle">
