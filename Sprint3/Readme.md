@@ -4,7 +4,7 @@
 We use [CityScapes dataset](https://www.cityscapes-dataset.com/downloads/) to train
 
 <p align="left">
-  <img src="picture/label.PNG" width=1000/>
+  <img src="picture/label.PNG" width=800/>
 </p>
 
 
