@@ -1,4 +1,21 @@
 # Sprint3
+## Dataset
+We selet more than 2000 pictures from original vqa dataset 7w to build this dataset.
+
+
+<img src="picture/data.png" >
+
+
+There are images and also to train the models we need the groundtruth.
+
+<img src="picture/building1.jpg" >
+
+<img src="picture/grass1.jpg" >
+
+Almost half of the two pictures above is sky. But when asking for the background, it doesn't make any sense to say it's sky. The background of them should be buildings and grass.
+
+<img src="picture/sky1.jpg" >
+
 ## Image processing
 ### Building our own model
 I used [CityScapes dataset](https://www.cityscapes-dataset.com/downloads/) to train the model, which use ResNet-50 as backbone combined with CRF. I choose CityScapes dataset as this dataset is made up of images from different cities, which matches our aim most. We can still use it in sprint4 to tell in which city the images are. Then I use our dataset to finetune the model. I don't use our dataset to train our model directly as our dataset don't have annotations. 
@@ -47,3 +64,4 @@ There are three principles for me to identify the background type.
 </p>
 
 Image in the middle is PSPNet, a classical sementic segmentation algorithm trained on Pascal VOC. Image on the right is our model's result. The way classical sementic segmentation recognize object is defining other things unlabelled. But we can't do that as we need to know its type.
+
