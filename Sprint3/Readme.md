@@ -1,11 +1,13 @@
 # Sprint3
 ## Image processing
 ### Building our own model
-We use [CityScapes dataset](https://www.cityscapes-dataset.com/downloads/) to train
+I used [CityScapes dataset](https://www.cityscapes-dataset.com/downloads/) to train the model, which use ResNet-50 as backbone combined with CRF. I choose CityScapes dataset as this dataset is made up of images from different cities, which matches our aim most. We can still use it in sprint4 to tell in which city the images are. Then I use our dataset to finetune the model. I don't use our dataset to train our model directly as our dataset don't have annotations. 
 
 <p align="left">
   <img src="picture/label.PNG" width=800/>
 </p>
+
+I only use 19 classes from 
 
 
 <p align="left">
