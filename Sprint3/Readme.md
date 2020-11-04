@@ -32,3 +32,10 @@ The mIoU is not very perfect as the top model in CityScapes ranking reaches over
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
 | :----------: |:-----------------: |:-------------------:|:----------------:|
 | ResNet 50 + CRF   | 56%                | 93%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl=0) |
+
+
+### Identify the background
+There are three principles for me to identify the background type.
+1. focus on the edge parts of images, don't care about the central area (1/4<row<3/4 and 1/4<col<3/4)
+2. find the two classes that occupy most pixels
+3. if the biggest class occupies far more areas than the second, output the biggest one, else output both of them.
