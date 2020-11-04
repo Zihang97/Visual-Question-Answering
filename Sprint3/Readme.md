@@ -2,19 +2,22 @@
 ## Dataset
 We selet more than 2000 pictures from original vqa dataset 7w to build this dataset.
 
-
-<img src="picture/data.png" >
-
+<p align="left">
+  <img src="picture/data.png" width=700/ >
+</p>
 
 There are images and also to train the models we need the groundtruth.
 
-<img src="picture/building1.jpg" >
-
-<img src="picture/grass1.jpg" >
+<p align="left">
+  <img src="picture/building1.jpg" height=400/>
+  <img src="picture/grass1.jpg" height=400/>
+</p>
 
 Almost half of the two pictures above is sky. But when asking for the background, it doesn't make any sense to say it's sky. The background of them should be buildings and grass.
 
-<img src="picture/sky1.jpg" >
+<p align="left">
+  <img src="picture/sky1.jpg" >
+</p>
 
 ## Image processing
 ### Building our own model
