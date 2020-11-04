@@ -21,7 +21,7 @@ Almost half of the two pictures above is sky. But when asking for the background
 
 ## LSTM
 
- <img src="VIS+LSTM MODEL.png" height=300/>
+ <img src="VIS+LSTM Model.png" height=300/>
 
 
 ## Image processing
