@@ -40,6 +40,8 @@ There are three principles for me to identify the background type.
 2. Find the two classes that occupy most pixels
 3. If the biggest class occupies far more areas than the second, output the biggest one, else output both of them.
 
-<p align="left">
-  <img src="picture/rank.PNG" width=800/>
+<p align="centering">
+  <img src="picture/2008_007112.jpg" width=200/>
+  <img src="picture/2008_007112.png" width=200/>
+  <img src="picture/old.png" width=200/>
 </p>
