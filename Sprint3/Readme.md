@@ -21,6 +21,12 @@ I only use 19 classes out of 35 classes defined in CityScapes as our model don't
   <img src="picture/train_80.PNG" width=800/>
 </p>
 
+The mIoU is not very perfect as the top model in CityScapes ranking reaches over 80%. The reasons may lie in that I only trained 80 epoches needing only 3.5 hrs with 3 V100 GPUs on SCC and our model only have 50 layers while top models may have hundreds with fancy optimizations. But we don't need such a high mIoU to precisely discribe the shape of object. Our aim is to know the background type.
+
+<p align="left">
+  <img src="picture/rank.PNG" width=800/>
+</p>
+
 ### Trained Model:
 
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
