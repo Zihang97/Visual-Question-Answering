@@ -24,6 +24,11 @@ For example, we choose the Great Wall, pyramid and the Eiffel Tower to build our
 ## Model
 ### Expand the range of question
 
+<p align="center">
+  <img src="test.jpg" width=400/>
+  <img src="test.png" width=400/>
+</p>
+
 <p align="left">
   <img src="background.PNG" width=700/>
 </p>
