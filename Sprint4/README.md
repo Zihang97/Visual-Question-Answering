@@ -23,25 +23,26 @@ For example, we choose the Great Wall, pyramid and the Eiffel Tower to build our
 
 ## Model
 ### Expand the range of question
+In sprint 4 the first thing we did was expand the range of question. In sprint 3 we only used one question,'What's the background of image?'. Though background-related question is limited, there are still some questions that apply. Unlike traditional VQA algorithms which use element-wise add or multiplication to combine the features from question and image, I use a if-else statement structure which divided the output of question into three bins. I transforms the output of question after LSTM into background-related scores.
 
 <p align="center">
   <img src="test.jpg" width=400/>
   <img src="test.png" width=400/>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="background.PNG" width=700/>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="where.PNG" width=700/>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="unrelated_person.PNG" width=700/>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="unrelated.PNG" width=700/>
 </p>
 
