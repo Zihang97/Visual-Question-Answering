@@ -52,3 +52,8 @@ Based on previous 80 epoches checkpoint, I trained another 80 epoches needing 3.
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
 | :----------: |:-----------------: |:-------------------:|:----------------:|
 | ResNet 50 + CRF   | 60%                | 95%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl) |
+
+
+## Sprint 5
+1. Finish the dataset and train on new dataset to expand the class.
+2. Consider if we need increase the number of layers to get better performance.
