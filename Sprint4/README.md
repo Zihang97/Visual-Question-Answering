@@ -22,6 +22,25 @@ For example, we choose the Great Wall, pyramid and the Eiffel Tower to build our
 </p>
 
 ## Model
+### Expand the range of question
+
+<p align="left">
+  <img src="background.PNG" width=700/>
+</p>
+
+<p align="left">
+  <img src="where.PNG" width=700/>
+</p>
+
+<p align="left">
+  <img src="unrelated_person.PNG" width=700/>
+</p>
+
+<p align="left">
+  <img src="unrelated.PNG" width=700/>
+</p>
+
+### Improve the performance
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
 | :----------: |:-----------------: |:-------------------:|:----------------:|
 | ResNet 50 + CRF   | 60%                | 95%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl) |
