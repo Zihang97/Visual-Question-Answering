@@ -49,6 +49,11 @@ In sprint 4 the first thing we did was expand the range of question. In sprint 3
 ### Improve the performance
 Based on previous 80 epoches checkpoint, I trained another 80 epoches needing 3.5 hrs with 3 V100 GPUs on SCC. The results from later training show that both mIOU and accuracy changed very little in last 20 epoches, in some epoches the results even got worse. I think the reason lied in the simple network with only 50 layers maybe having degradation in deep training.
 
+<p align="center">
+  <img src="sky (182).jpg" width=400/>
+  <img src="sky (182).png" width=400/>
+</p>
+
 | Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
 | :----------: |:-----------------: |:-------------------:|:----------------:|
 | ResNet 50 + CRF   | 60%                | 95%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl) |
