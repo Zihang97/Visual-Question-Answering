@@ -31,19 +31,19 @@ In sprint 4 the first thing we did was expand the range of question. In sprint 3
 </p>
 
 <p align="center">
-  <img src="background.PNG" width=700/>
+  <img src="background.PNG" width=800/>
 </p>
 
 <p align="center">
-  <img src="where.PNG" width=700/>
+  <img src="where.PNG" width=800/>
 </p>
 
 <p align="center">
-  <img src="unrelated_person.PNG" width=700/>
+  <img src="unrelated_person.PNG" width=800/>
 </p>
 
 <p align="center">
-  <img src="unrelated.PNG" width=700/>
+  <img src="unrelated.PNG" width=800/>
 </p>
 
 ### Improve the performance
