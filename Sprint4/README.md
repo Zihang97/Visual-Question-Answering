@@ -20,3 +20,8 @@ For example, we choose the Great Wall, pyramid and the Eiffel Tower to build our
 <p align="left">
   <img src="the Eiffel Tower2.jpg">
 </p>
+
+## Model
+| Backbone     | CityScapes val mIoU | CityScapes accuracy | Pretrained Model |
+| :----------: |:-----------------: |:-------------------:|:----------------:|
+| ResNet 50 + CRF   | 60%                | 95%                 | [Dropbox](https://www.dropbox.com/s/qac5r3n0na69s9g/best_model.pth?dl) |
