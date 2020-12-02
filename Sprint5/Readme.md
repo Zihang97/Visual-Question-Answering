@@ -100,11 +100,11 @@ The result of execution will generate a folder corresponding to the picture, whi
 Another step is needed to extract label.png file from single \_json directory. I wrote a [python script](extract.py) to extract and rename the file.
 
 <p align="left">
-  <img src="picture/direc.PNG" width=300/>
+  <img src="picture/direc.PNG" width=200/>
 </p>
 
 <p align="left">
-  <img src="picture/content.PNG" width=600/>
+  <img src="picture/content.PNG" width=400/>
 </p>
 
 Constructing the dataset is much harder than we expected. We have finished hunderds of images of four types. In the next days we will expand the dataset with several more types and combine our dataset with pascal voc as an augmentation to train the model so that our model can recognize those specific spots of images.
