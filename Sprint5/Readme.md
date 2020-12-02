@@ -36,6 +36,40 @@ Here are the examples of our dataset which are labeled.
 
 
 ### generate the dataset
+In order to run the json file, I wrote a batch file to execute labelme_json_to_dataset.py
+
+```python
+now=`date +'%Y-%m-%d %H:%M:%S'`
+start_time=$(date --date="$now" +%s);
+c=0
+echo "Now begin to search json file..."
+cd ./greatwall
+for file in ./*
+do
+    if [ "${file##*.}"x = "json"x ]
+    then
+    echo "transfering $file to dataset"
+    labelme_json_to_dataset "$file"
+    c=`expr $c + 1`
+    fi
+#    printf "no!\n "
+done
+now=`date +'%Y-%m-%d %H:%M:%S'`
+end_time=$(date --date="$now" +%s);
+echo "transfered $c json files about greatwall to dataset, used time:"$((end_time-start_time))"s"
+```
+
+The result of execution will generate a folder corresponding to the picture, which includes four files: img, info, label, label_viz
+
+<p align="left">
+  <img src="picture/colosseum.PNG"/>
+</p>
+
+<p align="left">
+  <img src="picture/eiffeltower.PNG"/>
+</p>
+
+Another step is needed to extract label.png file from single \_json directory.
 
 <p align="center">
   <img src="picture/colosseum (14).jpg" width=300/>
@@ -53,4 +87,10 @@ Here are the examples of our dataset which are labeled.
   <img src="picture/wall.png" width=300/>
   <img src="picture/wall_label.png" width=300/>
   <img src="picture/wall_viz.png" width=300/>
+</p>
+
+<p align="center">
+  <img src="picture/py.png" width=300/>
+  <img src="picture/py_label.png" width=300/>
+  <img src="picture/py_viz.png" width=300/>
 </p>
