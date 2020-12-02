@@ -35,4 +35,5 @@ json_file = os.listdir(path)
 for file in json_file:
     os.system("python E:\Anocado\Anocado3\envs\labelme\Scripts\labelme_json_to_dataset.py %s"
               % (path + file))         #use your own labelme path```
+              
 The result of execution will generate a folder corresponding to the picture, which includes four files: img, info, label, label_viz
