@@ -22,4 +22,13 @@ Here are the example of our dataset. We choose the Eiffel Tower, the Great Wall,
   <img src="picture/image4.png" height=500/>
 </p>
 
-```{language-extension}<space>{Code block Inside}```
+```
+#coding:utf-8
+import os
+ 
+path = 'D:\\data' #path是你存放json的路径
+json_file = os.listdir(path)
+ 
+for file in json_file:
+    os.system("python E:\Anocado\Anocado3\envs\labelme\Scripts\labelme_json_to_dataset.py %s"
+              % (path + file))         #使用自己的labelme路径```
