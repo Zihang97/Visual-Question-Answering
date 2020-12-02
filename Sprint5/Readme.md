@@ -106,3 +106,5 @@ Another step is needed to extract label.png file from single \_json directory. I
 <p align="left">
   <img src="picture/content.PNG" width=600/>
 </p>
+
+Constructing the dataset is much harder than we expected. We have finished hunderds of images of four types. In the next days we will expand the dataset with several more types and combine our dataset with pascal voc as an augmentation to train the model so that our model can recognize those specific spots of images.
