@@ -2,7 +2,7 @@
 ## Dataset
 In Sprint5, our purpose is to finish our dataset and use our model to train new dataset. Using Labelme to label our images so that to build our own dataset.
 
-Here are the example of our dataset. We choose the Eiffel Tower, the Great Wall, colosseum and pyramid
+Here are the examples of our dataset. We choose the Eiffel Tower, the Great Wall, colosseum and pyramid
 <p align="left">
   <img src="picture/image5.jpg" height=300/>
   <img src="picture/image6.jpg" height=300/>
@@ -10,6 +10,7 @@ Here are the example of our dataset. We choose the Eiffel Tower, the Great Wall,
   <img src="picture/image8.jpg" height=300/>
 </p>
 
+Here are the examples of our dataset which are labeled. 
 <p align="left">
   <img src="picture/image1.png" height=500/>
 </p>
