@@ -22,7 +22,7 @@ Here are the example of our dataset. We choose the Eiffel Tower, the Great Wall,
   <img src="picture/image4.png" height=500/>
 </p>
 
-```
+```python
 #coding:utf-8
 import os
  
