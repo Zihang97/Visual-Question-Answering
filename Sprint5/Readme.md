@@ -1,6 +1,6 @@
 # Sprint5
 ## Dataset
-In Sprint5, our purpose is to finish our dataset and use our model to train new dataset. Using Labelme to label our images so that to build our own dataset.
+In Sprint5, our purpose is to finish our dataset. Using Labelme to label our images so that to build our own dataset.
 
 Here are the examples of our dataset. We choose the Eiffel Tower, the Great Wall, colosseum and pyramid
 <p align="left">
@@ -33,20 +33,3 @@ Here are the examples of our dataset which are labeled.
   <img src="picture/image4.png" height=500/>
 </p>
 
-
-In order to run the json file, I wrote a batch file to execute labelme_json_to_dataset.py
-
-```python
-#coding
-import os
- 
-path = 'D:\\data' #path is the path you save json file
-json_file = os.listdir(path)
- 
-for file in json_file:
-    os.system("python E:\Anocado\Anocado3\envs\labelme\Scripts\labelme_json_to_dataset.py %s"
-              % (path + file))         #use your own labelme path
-```
-
-The result of execution will generate a folder corresponding to the picture, which includes four files: img, info, label, label_viz
-              
