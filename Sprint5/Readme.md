@@ -28,7 +28,7 @@ Here are the examples of our dataset which are labeled.
   <img src="picture/image9.png" height=400/>
 </p>
 
- We colllected over one thousand images from internet and labeled all of them. And atter saving them, a json file corresponding to the changed picture will be generated.
+ We colllected over one thousand images from internet and labeled all of them. And after saving them, a json file corresponding to the changed picture will be generated.
  
  <p align="left">
   <img src="picture/image4.png" height=500/>
