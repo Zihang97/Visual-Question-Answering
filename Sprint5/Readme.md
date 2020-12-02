@@ -97,7 +97,7 @@ The result of execution will generate a folder corresponding to the picture, whi
   <img src="picture/py_viz.png" width=300/>
 </p>
 
-Another step is needed to extract label.png file from single \_json directory. I wrote a python script to extract and rename the file.
+Another step is needed to extract label.png file from single \_json directory. I wrote a [python script](extract.py) to extract and rename the file.
 
 <p align="left">
   <img src="picture/direc.PNG" width=300/>
