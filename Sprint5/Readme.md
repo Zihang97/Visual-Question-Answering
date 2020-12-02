@@ -3,7 +3,7 @@
 In Sprint5, our purpose is to finish our dataset. Using Labelme to label our images so that to build our own dataset.
 
 ### Manaully label images
-Here are the examples of our dataset. We choose the Eiffel Tower, the Great Wall, colosseum and pyramid
+Here are the examples of our dataset. We have finished the Eiffel Tower, the Great Wall, colosseum and pyramid types.
 <p align="left">
   <img src="picture/image5.jpg" height=300/>
   <img src="picture/image6.jpg" height=300/>
@@ -35,7 +35,7 @@ Here are the examples of our dataset which are labeled.
 </p>
 
 
-### generate the dataset
+### Generate the dataset
 In order to run the json file, I wrote a batch file to execute labelme_json_to_dataset.py
 
 ```python
@@ -69,7 +69,9 @@ The result of execution will generate a folder corresponding to the picture, whi
   <img src="picture/eiffeltower.PNG"/>
 </p>
 
-Another step is needed to extract label.png file from single \_json directory.
+<p align="left">
+  <img src="picture/great.PNG"/>
+</p>
 
 <p align="center">
   <img src="picture/colosseum (14).jpg" width=300/>
@@ -93,4 +95,14 @@ Another step is needed to extract label.png file from single \_json directory.
   <img src="picture/py.png" width=300/>
   <img src="picture/py_label.png" width=300/>
   <img src="picture/py_viz.png" width=300/>
+</p>
+
+Another step is needed to extract label.png file from single \_json directory. I wrote a python script to extract and rename the file.
+
+<p align="left">
+  <img src="picture/direc.PNG" width=300/>
+</p>
+
+<p align="left">
+  <img src="picture/content.PNG" width=600/>
 </p>
