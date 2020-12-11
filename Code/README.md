@@ -21,10 +21,6 @@ The training will automatically be run on the GPUs (if more that one is detected
 tensorboard --logdir saved
 ```
 
-<p align="center"><img src="images/tb1.png" align="center" width="900"></p>
-
-<p align="center"><img src="images/tb2.png" align="center" width="900"></p>
-
 ## Inference
 
 For inference, we need a PyTorch trained model, the images we'd like to segment and the config used in training (to load the correct model and other parameters), 
@@ -35,7 +31,6 @@ python inference.py --config config.json --model best_model.pth --images images_
 
 The predictions will be saved as `.png` images using the default palette in the passed fodler name, if not, `outputs\` is used, for Pacal VOC the default palette is:
 
-<p align="center"><img src="images/colour_scheme.png" align="center" width="550"></p>
 
 Here are the parameters availble for inference:
 ```
