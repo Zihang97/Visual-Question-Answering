@@ -1,5 +1,5 @@
-# Semantic Segmentation in PyTorch
-This repo contains a PyTorch an implementation of different semantic segmentation models for different datasets.
+# Background-related Visual Question Answering in PyTorch
+This repo contains a PyTorch implementation of our background-related VQA model.
 
 ## Requirements
 PyTorch and Torchvision needs to be installed before running the scripts, together with `PIL` and `opencv` for data-preprocessing and `tqdm` for showing the training progress. PyTorch v1.1 is supported (using the new supported tensoboard); can work with ealier versions, but instead of using tensoboard, use tensoboardX.
@@ -159,3 +159,4 @@ Config files are in `.json` format:
 - [PyTorch-Encoding](https://github.com/zhanghang1989/PyTorch-Encoding)
 - [Pytorch-Template](https://github.com/victoresque/pytorch-template/blob/master/README.m)
 - [Synchronized-BatchNorm-PyTorch](https://github.com/vacancy/Synchronized-BatchNorm-PyTorch)
+- [PyTorch-Segmentation](https://github.com/yassouali/pytorch_segmentation)
