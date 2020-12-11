@@ -75,41 +75,41 @@ The code structure is based on [pytorch-template](https://github.com/victoresque
 Config files are in `.json` format:
 ```javascript
 {
-  "name": "PSPNet",         // training session name
-  "n_gpu": 1,               // number of GPUs to use for training.
-  "use_synch_bn": true,     // Using Synchronized batchnorm (for multi-GPU usage)
+    "name": "PSPNet",
+    "n_gpu": 3,
+    "use_synch_bn": false,
 
     "arch": {
-        "type": "PSPNet", // name of model architecture to train
+        "type": "PSPNet",
         "args": {
-            "backbone": "resnet50",     // encoder type type
-            "freeze_bn": false,         // When fine tuning the model this can be used
-            "freeze_backbone": false    // In this case only the decoder is trained
+            "backbone": "resnet50",
+            "freeze_bn": false,
+            "freeze_backbone": false
         }
     },
 
     "train_loader": {
-        "type": "CityScapes",          // Selecting data loader
+        "type": "CityScapes",
         "args":{
-            "data_dir": "data/",  // dataset path
-            "batch_size": 32,     // batch size
-            "augment": true,      // Use data augmentation
-            "crop_size": 380,     // Size of the random crop after rescaling
+            "data_dir": "/projectnb2/ece601/VQA-team10/CityScapes",
+            "batch_size": 32,
+            "base_size": 400,
+            "crop_size": 380,
+            "augment": true,
             "shuffle": true,
-            "base_size": 400,     // The image is resized to base_size, then randomly croped
-            "scale": true,        // Random rescaling between 0.5 and 2 before croping
-            "flip": true,         // Random H-FLip
-            "rotate": true,       // Random rotation between 10 and -10 degrees
-            "blur": true,         // Adding a slight amount of blut to the image
-            "split": "train_aug", // Split to use, depend of the dataset
+            "scale": true,
+            "flip": true,
+            "rotate": true,
+            "blur": false,
+            "split": "train",
             "num_workers": 8
         }
     },
 
-    "val_loader": {     // Same for val, but no data augmentation, only a center crop
-        "type": "VOC",
+    "val_loader": {
+        "type": "CityScapes",
         "args":{
-            "data_dir": "data/",
+            "data_dir": "/projectnb2/ece601/VQA-team10/CityScapes",
             "batch_size": 32,
             "crop_size": 480,
             "val": true,
@@ -120,35 +120,35 @@ Config files are in `.json` format:
 
     "optimizer": {
         "type": "SGD",
-        "differential_lr": true,      // Using lr/10 for the backbone, and lr for the rest
+        "differential_lr": true,
         "args":{
-            "lr": 0.01,               // Learning rate
-            "weight_decay": 1e-4,     // Weight decay
+            "lr": 0.01,
+            "weight_decay": 1e-4,
             "momentum": 0.9
         }
     },
 
-    "loss": "CrossEntropyLoss2d",     // Loss (see utils/losses.py)
-    "ignore_index": 255,              // Class to ignore (must be set to -1 for ADE20K) dataset
-    "lr_scheduler": {   
-        "type": "Poly",               // Learning rate scheduler (Poly or OneCycle)
+    "loss": "CrossEntropyLoss2d",
+    "ignore_index": 255,
+    "lr_scheduler": {
+        "type": "Poly",
         "args": {}
     },
 
     "trainer": {
-        "epochs": 80,                 // Number of training epochs
-        "save_dir": "saved/",         // Checkpoints are saved in save_dir/models/
-        "save_period": 10,            // Saving chechpoint each 10 epochs
+        "epochs": 80,
+        "save_dir": "saved/",
+        "save_period": 10,
   
-        "monitor": "max Mean_IoU",    // Mode and metric for model performance 
-        "early_stop": 10,             // Number of epochs to wait before early stoping (0 to disable)
+        "monitor": "max Mean_IoU",
+        "early_stop": 10,
         
-        "tensorboard": true,        // Enable tensorboard visualization
+        "tensorboard": true,
         "log_dir": "saved/runs",
-        "log_per_iter": 20,         
+        "log_per_iter": 20,
 
         "val": true,
-        "val_per_epochs": 5         // Run validation each 5 epochs
+        "val_per_epochs": 5
     }
 }
 ```
